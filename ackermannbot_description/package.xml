@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>gz_ros2_control_demos</name>
+  <name>ackermannbot_description</name>
   <version>1.2.13</version>
-  <description>gz_ros2_control_demos</description>
+  <description>ackermannbot_description</description>
 
   <maintainer email="ahcorde@osrfoundation.org">Alejandro Hernandez</maintainer>
 
@@ -33,6 +33,9 @@
   <exec_depend>ros2launch</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>xacro</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>gz_ros2_control</exec_depend>
 
   <!-- ros2_control -->
   <depend>ros2_control_cmake</depend>
